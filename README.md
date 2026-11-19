@@ -105,9 +105,9 @@ Run it from a sites folder. `--help` is safe.
 
 ```bash
 cd ~/workspace/dev
-bash cmd-bootstrap-project.sh components --install                   # the pages of version 5.3
-bash cmd-bootstrap-project.sh components46 --install --bootstrap 4.6  # the same pages on version 4.6
-bash cmd-bootstrap-project.sh components --install --ref 2.0.x       # a branch or a tag of the step pack
+bash cmd-bootstrap-project.sh bssite --install                   # the pages of version 5.3
+bash cmd-bootstrap-project.sh bssite46 --install --bootstrap 4.6  # the same pages on version 4.6
+bash cmd-bootstrap-project.sh bssite --install --ref 2.0.x       # a branch or a tag of the step pack
 ```
 
 | Flag | What it does |
@@ -128,8 +128,8 @@ starts it and checks that it answers: about half a minute.
 On a demo site:
 
 ```bash
-bash cmd-tools-testing.sh components                                  # webship-js, the step pack, a first feature
-bash cmd-tools-testing.sh components --run --path tests/features/site.feature
+bash cmd-tools-testing.sh bssite                                  # webship-js, the step pack, a first feature
+bash cmd-tools-testing.sh bssite --run --path tests/features/site.feature
 ```
 
 The testing setup adds `@webship-js/bootstrap-steps` to the project, lists its step definitions in
