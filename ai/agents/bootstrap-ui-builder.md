@@ -30,12 +30,12 @@ person does.
 
 ```bash
 cd ~/workspace/dev
-bash cmd-bootstrap-project.sh components --install                   # the pages of version 5.3
-bash cmd-bootstrap-project.sh components46 --install --bootstrap 4.6  # the same pages on 4.6
+bash cmd-bootstrap-project.sh bssite --install                   # the pages of version 5.3
+bash cmd-bootstrap-project.sh bssite46 --install --bootstrap 4.6  # the same pages on 4.6
 ```
 
 Each page shows one component with the markup of Bootstrap's documentation and examples:
-`https://components.ddev.site/modal.html`, `/dropdowns.html`, `/collapse.html`, `/tabs.html`,
+`https://bssite.ddev.site/modal.html`, `/dropdowns.html`, `/collapse.html`, `/tabs.html`,
 `/carousel.html`, `/tooltips.html`, `/validation.html` and the rest. Start from that markup rather
 than from memory: the version matters. The builder deletes a project of the same name first.
 

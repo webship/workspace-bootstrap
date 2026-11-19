@@ -35,7 +35,7 @@ On a demo site the Bootstrap builder made (`cmd-bootstrap-project.sh`):
 
 ```bash
 cd ~/workspace/dev                        # the sites folder the project is in
-bash cmd-tools-testing.sh mydemo          # webship-js, the step pack, the tags of its version, a first feature
+bash cmd-tools-testing.sh bssite          # webship-js, the step pack, the tags of its version, a first feature
 ```
 
 On any other site, after its testing setup (which adds the platform's own pack, if it has one):
