@@ -175,7 +175,7 @@ npm test        # builds, then the unit tests: the manifest, the scripts, the AI
 npm run lint    # the TypeScript compiler, no output
 ```
 
-CI runs the same on Node.js 20 and 24, checks that every shell script parses, and runs the plugin's
+CI runs the same on Node.js 24 and 26, checks that every shell script parses, and runs the plugin's
 webship-js features against a dashboard with the plugin installed (the reusable workflow
 `webship/workspace/.github/workflows/plugin-browser-suite.yml`). `tests/fixtures/step-definitions.txt`
 holds the step definitions of the step pack at the version the testing hook pins and of webship-js,
